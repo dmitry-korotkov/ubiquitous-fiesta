@@ -1,0 +1,1072 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face { 
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff
+);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", "Arial", "sans-serif";
+  display: flex;
+  flex-direction: column;  
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: rgba(9, 12, 53);
+  background-size: cover;
+}
+
+.header::after {
+    content: "";
+    background-color: rgba(9, 12, 53,0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-container {
+  z-index: 2;
+  position: relative;
+  padding: 10.3% 5.3% 25.6% 5.3%;
+  box-sizing: border-box;
+}
+
+.surface-logo {  
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #fff;
+}
+
+.title-header-container {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin-top: 42%;
+}
+
+.title-header-one {
+  display: block;
+  line-height: 31px;
+}
+
+.title-header-two {
+  display: block;
+  margin-top: 30px;
+  margin-left: 14%;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 27.5%;
+  fill: #fff;
+}
+
+.store-button {
+  margin-bottom: 5%;
+  font-family: Open Sans, arial, sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none; 
+  background-color: rgb(94, 66, 176);
+  border-radius: 40px;
+}
+
+.store-button:last-child {
+  margin-bottom: 0;
+}
+
+.store-discription {
+  width: 80%;
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-content: center;
+  align-items: center;
+}
+
+.store-icon {
+  margin-right: 2%;
+  width: 16px;
+  height: 16px;
+}
+
+.download-source {
+  display: block;
+  font-weight: bold;
+}
+
+.athlets {
+  width: 100%;
+}
+
+.section-athlets {
+  position: relative;
+  padding-top: 7.5%;
+}
+
+
+.header-athlets {
+  margin-left: 6.25%;
+  font-weight: bold;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.footballer-picture-container {
+    max-width: 100%;   
+    position: absolute;
+    left: 50%;
+    -moz-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+  }
+
+.footballer-img {
+  max-width: 100%;
+}
+
+.athlets-list {
+  list-style: none;
+  margin-top: 59%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.athlets-article {
+  padding: 25% 5.3% 15% 5.3%;
+  background-color: : #fff;
+}
+
+
+
+.athlets-article:nth-child(n+1) {
+  background-color: #fafafa;
+}
+
+.athlets-article:nth-child(n+2) {
+  padding-top: 18.75%;
+  background-color: #f5f4f9;
+}
+
+.athlets-article:nth-child(n+3) {
+  background-color: #5e42b0;
+  color: #ffffff;
+}
+
+
+.athlets-list-header {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+
+.number-title {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.number-title::after {
+  content: "";
+  display: block;
+  width: 14px;
+  border-bottom: 4px solid #5e42b0;
+}
+
+
+.athlets-growth-number::after{
+  content: "";
+  display: block;
+  width: 14px;
+  border-bottom: 4px solid #ffffff;
+}
+
+
+.title-discription {
+  display: block;
+  font-size: 2.3rem;
+  line-height: 1.7rem;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin-left: 3%;
+}
+
+.description-athlets-list {
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+
+.players {
+  width: 100%;
+}
+
+.section-players {
+  position: relative;
+  padding-top: 7.5%;
+}
+
+.header-players {
+  margin-left: 6.25%;
+  font-weight: bold;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.basketball-picture-container {
+    max-width: 100%;   
+    position: absolute;
+    left: 50%;
+    -moz-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+  }
+
+.players-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 76.25%;
+}
+
+.players-article {
+  padding: 25% 5.3% 15% 5.3%;
+  background-color: : #fff;
+}
+
+.players-article:nth-child(n+1) {
+  background-color: #fafafa;
+}
+
+.players-article:nth-child(n+2) {
+  padding-top: 18.75%;
+  background-color: #f5f4f9;
+}
+
+.players-article:nth-child(n+3) {
+  background-color: #090c35;
+  color: #fff;
+}
+
+.players-list-header {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.players-growth-number {
+  color: #8765dd;
+}
+
+.players-growth-number::after{
+  content: "";
+  display: block;
+  width: 14px;
+  border-bottom: 4px solid #ffffff;
+}
+
+.description-players-list {
+  margin-top: 10%;
+  font-size: 1.5rem;
+}
+
+.features {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.be-active {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.feauture-container {
+  position: relative; 
+}
+
+.feature-img {
+  max-width: 100% ;
+}
+
+.wrapper {
+  position: absolute;
+  width: 22%;
+  bottom: -3%;
+  left: 6.25%;
+  background: #5e42b0;
+  overflow: hidden;
+}
+
+.wrapper:before {
+  content: "";
+  margin-bottom: 100%;
+  float: left;
+  }
+
+
+.number-features {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #f3efef;
+}
+.number-features div {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.number-feature {
+  display: table-cell;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  vertical-align: middle;
+  color: #fff
+}
+
+.number-features .number-feature::after {
+	content: "";
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px solid #8f7bc8;
+	width: 15px;
+}
+
+.feature-article {
+  padding: 10.5% 5.3% 23% 5.3%;
+  box-sizing: border-box;
+}
+
+.header-feature {
+  font-weight: bold;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.feature-details {
+  margin-top: 7.5%;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.find-contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-fc {
+  position: absolute;
+  width: 22%;
+  bottom: -3%;
+  left: 6.25%;
+  background: #5e42b0;
+  overflow: hidden;
+}
+
+.wrapper-fc:before {
+  content: "";
+  margin-bottom: 100%;
+  float: left;
+}
+
+.work-it {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: rgba(9, 12, 53);
+  background-size: cover;
+}
+
+.footer::after {
+  content: "";
+  background-color: rgba(9, 12, 53,0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-container {
+  z-index: 2;
+  position: relative;
+  padding: 31% 5.3% 5% 5.3%;
+  box-sizing: border-box;
+}
+
+.download-app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.simple-surface-logo {
+  width: 20%;
+  padding: 3%;
+  border-radius: 15px;
+  background-color: #5e42b0; 
+  margin-left: auto;
+  margin-right: auto;
+  fill: #fff;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.2rem;
+  
+  margin-top: 18%;
+  text-align: center;
+}
+
+.major-footer-title {
+  display: block;  
+  letter-spacing: 0.18rem;
+}
+
+.minor-footer-title {
+  display: block;
+  margin-top: 2%;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: #9b8ec1;
+}
+
+.store-buttons-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 27.5%;
+  fill: #fff;
+}
+
+.footer-surface-logo  {
+  width: 40%;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #fff;
+}
+
+
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/football_767.jpg");
+  }
+  
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/game_767.jpg" );
+  }
+
+}
+
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .header {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/football_1280.jpg");
+  }
+  
+ .header-container {
+  padding: 5.2% 10% 11.6% 10%;
+
+  }
+  
+  .title-header-container {
+    font-size: 6.4rem;
+  }
+  
+  .store-buttons {   
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .store-button {
+    width: 46%;
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  .store-discription {
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .store-icon {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .section-athlets {
+    padding-top: 11.2%;
+  }
+  
+  .header-athlets {
+    margin-left: 38%;
+    font-size: 8rem;
+  }
+  
+  .footballer-picture-container {
+    max-width: 100%; 
+    position: absolute;
+    left: 0;
+    top: 11.2%;
+    -moz-transform: translate(-33%,0);
+    -webkit-transform: translate(-33%,0);
+    transform: translate(-33%,0);
+  }
+  
+  .athlets-list {
+    margin-top: 2.5%;
+  }
+  
+  
+  .athlets-article {
+    padding: 5.6% 4.2% 4% 38%;
+  }
+  
+  .athlets-article:nth-child(n+1) {
+    background-color: #fff;
+  }
+  
+  .athlets-article:nth-child(n+2) {
+    padding-top: 5.6%;
+    background-color: #f5f4f9;
+  }
+  
+  .athlets-article:nth-child(n+3) {
+    background-color: #5e42b0;
+  }
+  
+  .number-title {
+    font-size: 1.8rem;
+  }
+  
+  .number-title::after {
+    content: "";
+    display: block;
+    width: 18px;
+    border-bottom: 4px solid #5e42b0;
+  }
+  
+  .athlets-growth-number::after{
+  content: "";
+  display: block;
+  width: 18px;
+  border-bottom: 4px solid #ffffff;
+  }
+  
+  .title-discription {
+    font-size: 3.2rem;
+  }
+  
+  .description-athlets-list {
+    margin-top: 4.3%;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  
+  .section-players {
+    padding-top: 3%
+  }
+  
+  .basketball-picture-container {
+    max-width: 55%; 
+    position: absolute;
+    top: 4%;
+    right: 0;
+    left: auto;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none; 
+  }
+  
+   .basketballer-img {
+    max-width: 100%;
+  }
+  
+  .header-players {
+    margin-top: 8.2%;
+    margin-left: 4.2%;
+    font-size: 8rem;
+  }
+  
+  .players-list {
+    margin-top: 2.5%;
+  }
+  
+  .players-article {
+    padding: 5.6% 50% 4% 4.2%;
+  }
+  
+  .players-article:nth-child(n+1) {
+    background-color: #fff;
+  }
+  
+  .players-article:nth-child(n+2) {
+    padding-top: 5.6%;
+    background-color: #f5f4f9;
+  }
+  
+  .players-article:nth-child(n+3) {
+    background-color: #090c35;
+  }
+  
+  .players-growth-number::after{
+    content: "";
+    display: block;
+    width: 18px;
+    border-bottom: 4px solid #ffffff;
+  }
+  
+  .description-players-list {
+    margin-top: 4.3%;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  
+  .wrapper {
+    left: 4.2%;
+    width: 15.2%;
+  }
+  
+  .number-feature {
+    font-size: 2.4rem;
+  }
+  
+  .number-features .number-feature::after {
+    border-bottom: 4px solid #8f7bc8;
+    width: 24px;
+  }
+  
+  .feature-article {
+  padding: 11.8% 4.2% 12.6% 4.2%;
+  }
+  
+  .header-feature {
+    font-size: 8rem;
+  }
+  
+  .feature-details {
+    margin-top: 5%;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+  
+  .wrapper-fc {
+    left: 4.2%;
+    width: 15.2%;
+  }
+  
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/game_1280.jpg");
+  }
+  
+  .footer-container {
+    padding: 16.4% 3.4% 3.4% 3.4%;
+  }
+  
+  .store-buttons-footer {   
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 37.5%;
+  }
+  
+
+  .simple-surface-logo {
+    width: 12.5%;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+  .footer-title {
+    font-size: 8rem;  
+    margin-top: 11.5%;
+}
+
+  .major-footer-title { 
+    letter-spacing: 0.43rem;
+}
+
+  .minor-footer-title {
+  margin-top: 0;
+  font-size: 3.6rem;;
+}
+
+  .store-buttons-footer {
+    margin-top: 40%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+  .footer-surface-logo  {
+    width: 27%;
+    margin-top: 7.7%;
+  }
+}
+
+    
+    
+@media (min-width: 961px) {
+  .header {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/football_1920.jpg");
+  }
+  
+  .header-container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 2.5% 9.3% 5.5% 9.3%;
+  }
+  
+  .surface-logo {  
+    width: 12.5%;
+  }
+  
+  .title-header-container {
+    margin-top: 18.7%;
+    font-size: 9rem;
+  }
+  
+  .title-header-one {
+    line-height: 31px;
+  }
+  
+  .title-header-two {
+    line-height: 100px;
+  }
+  
+   .store-buttons {
+    margin-top: 14.5%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+   .store-button {
+    width: 46%;
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  .store-discription {
+    padding: 3%;
+  
+  }
+  
+  .store-icon {
+    margin-right: 5%;
+    width: 42px;
+    height: 42px;
+  }
+  
+  .section-athlets {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 2%;
+  }
+  
+  .header-athlets {
+    margin-top: 4%;
+    margin-left: 52.6%;
+    font-size: 8rem;
+  }
+  
+  .footballer-picture-container {
+    max-width: 30%; 
+    position: absolute;
+    top: 3%;
+    left: 0;
+    -moz-transform: translate(65%,0);
+    -webkit-transform: translate(65%,0);
+    transform: translate(65%,0);
+  }
+  
+  .athlets-list {
+    margin-top: 2.6%;
+  }
+  
+  
+  .athlets-article {
+    padding: 3.1% 10.1% 2.85% 52.6%;
+  }
+  
+  .athlets-article:nth-child(n+1) {
+    background-color: #fff;
+  }
+  
+  .athlets-article:nth-child(n+2) {
+    padding-top: 3.1%;
+    background-color: #f5f4f9;
+  }
+  
+  .athlets-article:nth-child(n+3) {
+    background-color: #5e42b0;
+  }
+  
+  .number-title {
+    font-size: 1.8rem;
+  }
+  
+  .number-title::after {
+    content: "";
+    display: block;
+    width: 18px;
+    border-bottom: 4px solid #5e42b0;
+  }
+    
+  .athlets-growth-number::after{
+  content: "";
+  display: block;
+  width: 18px;
+  border-bottom: 4px solid #ffffff;
+  }
+  
+  .title-discription {
+    font-size: 3.6rem;
+  }
+  
+  .description-athlets-list {
+    margin-top: 3.2%;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .section-players {
+    padding-top: 2%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+   .basketball-picture-container {
+    max-width: 100%; 
+    position: absolute;
+    top: 3%;
+    right: 0;
+    -moz-transform: translate(65%,0);
+    -webkit-transform: translate(65%,0);
+    transform: translate(-20%,0);
+  }
+  
+    .basketballer-img {
+    max-width: 100%;
+  }
+  
+   .header-players {
+    margin-top: 4%;
+    margin-left: 10.1%;
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+  
+  .players-list {
+    margin-top: 2.6%;
+  }  
+  
+  
+   .players-article {
+    padding: 3.1% 52.6% 2.85% 10.1%;
+  }
+  
+  .players-article:nth-child(n+1) {
+    background-color: #fff;
+  }
+  
+  .players-article:nth-child(n+2) {
+    padding-top: 3.1%;
+    background-color: #f5f4f9;
+  }
+  
+  .players-article:nth-child(n+3) {
+    background-color: #090c35;
+  }
+    
+  .players-growth-number::after{
+  content: "";
+  display: block;
+  width: 18px;
+  border-bottom: 4px solid #ffffff;
+  }
+  
+  .description-players-list {
+    margin-top: 3.2%;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+    
+  .be-active {
+    flex-direction: row;
+  }
+  
+  .feauture-container {
+    width: 50%;
+  }
+  
+  .wrapper {
+    width: 17.3%;
+    top: 30.6%;
+    right: -8.64%;
+    left: auto;
+    bottom: auto;
+  }
+  
+  .number-feature {
+    font-size: 2.4rem;
+  }
+  
+  .number-features .number-feature::after {
+    width: 23px;
+  }
+  
+  .feature-article {
+    padding: 13.6% 11.4% 0% 6.35% ;
+    width: 50%;  
+  }
+  
+  .header-feature {
+    font-size: 8rem;
+    color: #e7e7e7;
+    line-height: 8rem;
+  }
+  
+  .feature-details {
+    margin-top: 6.15%;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+  
+  .find-contact {
+    flex-direction: row-reverse;
+  }
+  
+  .wrapper-fc {
+    width: 17.3%;
+    top: 30.6%;
+    left: -8.64%;
+    right: : auto;
+    bottom: auto;
+  }
+  
+  .work-it {
+    flex-direction: row;
+  }
+  
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/dmitry-korotkov/ubiquitous-fiesta/master/img/game_1920.jpg");
+  }
+  
+  .footer-container {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 12% 2.7% 5.5% 0%;
+  }
+  
+  .download-app-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-content: center;
+    align-items: center;
+  }
+  
+  
+  .simple-surface-logo {
+    width: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left: 0;
+   }
+
+  .footer-title {
+    font-size: 8rem;  
+    margin-top: 0;
+    text-align: left;
+}
+
+  .major-footer-title { 
+    letter-spacing: 0.45rem;
+}
+
+  .minor-footer-title {
+  margin-top: 0;
+  font-size: 3rem;
+}
+  
+  .store-buttons-footer {   
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8.5%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .footer-surface-logo  {
+    width: 10%;
+    margin-top: 13.6%;
+  }
+}
